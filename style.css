@@ -46,13 +46,15 @@ display: inline;
     text-decoration: none;
     color: white;
     text-transform: uppercase;
-    font-family: sans-serif;
+    font-family: montserrat;
+    font-weight: bolder;
+    font-size: 1.5rem;
 }
 .nav ul li::after{
     content: '';
     height: 3px;
     width: 0;
-    background: #009688;
+    background: #ffea00;
     position: absolute;
     left: 0;
     bottom: -7.5px;
@@ -99,7 +101,7 @@ display: inline;
     
 }
 .about{
-    background-color: yellow;
+    background-color: #ffea00;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -127,7 +129,7 @@ display: inline;
 .gallery::-webkit-scrollbar {
     width: 0;
     
-    background-color: yellow;
+    background-color: #ffea00;
   }
 .galleryimage{
     width: fit-content;
@@ -150,12 +152,13 @@ display: inline;
     background-color: black;
     position: relative;
     z-index: 1;
+    color: white;
 }
 .footer::before{
     content: '';
     height: 20px;
     width: 100%;
-    background: yellow;
+    background: #ffea00;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -208,4 +211,65 @@ display: inline;
 }
 .s{
     margin: 0 115px;
+}
+.linksq li{
+    list-style: none;
+}
+.linksq li a{
+    text-decoration: none;
+    color: white;
+    font-family: montserrat;
+    
+}
+.qlh{
+    font-family: montserrat;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    font-size: 2rem;
+}
+.ft{
+    position: absolute;
+    top: 120px;
+    left: 80px;
+    /* margin: 20px 0; */
+    
+}
+.l{
+    margin: 20px 0;
+    font-size: 1.5rem;
+    transition: all 0.5s;
+}
+
+.st{
+    position: absolute;
+    top: 120px;
+    left: 500px;
+}
+.address{
+    font-family: montserrat;
+    position: absolute;
+
+}
+.ad{
+    position: absolute;
+    top: 80px;
+    left: 900px;
+    font-size: 2rem;
+}
+.fa{
+    position: absolute;
+    top: 130px;
+    left: 900px;
+    width: 300px;
+}
+
+.cr{
+    position: absolute;
+    top: 330px;
+    left: 900px;
+    width: 300px;
+    font-family: sans-serif;
+    font-size: medium;
+    font-weight: bold;
 }

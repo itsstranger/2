@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIBAQ</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./imgs/ulog.png" type="image/png">
+</head>
+<body>
+    <div class="header">
+    <div class="nav">
+        <img src="./imgs/lg1.png" alt="" class="lg">
+        <ul class="navul">
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">RESULTS</a></li>
+            <li><a href="#">NEWS</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </div>
+
+    <div class="logoo">
+    <img src="./imgs/title png (1) (1).png" alt="logo" class="logo">
+</div>
+    <section class="about">
+        <div class="aboutlogo">
+            <img src="./imgs/lg.png" alt="" class="lgo">
+        </div>
+        <div class="aboutcontent">
+            <h1 class="hone">ABOUT SIBĀQ</h1>
+            <br>
+            <p class="bolde">SIBĀQ 2022, Darul Huda National Arts Fest is an intercollegiate arts fest conducted biennially, among under graduate colleges and off campuses of Darul Huda Islamic University. The event is officially sanctioned and supported by Darul Huda Islamic University and its Office of Academic Affairs (OAA) to support and promote development of educational activities of concerned students.</p>
+            <br>
+            <p class="normal">SIBĀQ 2022, Darul Huda National Arts Fest, from hereby addressed as the event that explores and stimulates creativity in various trending and traditional fields, and proudly celebrates Muslim traditional and cultural elements. The event, much recognized for enhancing skills, extra-curricular activities, creative thinking and productive interest of the students through skill oriented and talent based contests and programmes, has crucial role in the development of studentship in Darul Huda and is an eminent part of its curriculum.</p>
+        </div>
+    </section>
+    <section class="gallery">
+        <div class="galleryimg"><img src="./imgs/art1.png" alt=""></div>
+        <div class="galleryimg"><img src="./imgs/art1.png" alt=""></div>
+        <div class="galleryimg"><img src="./imgs/art1.png" alt=""></div>
+        <div class="galleryimg"><img src="./imgs/art1.png" alt=""></div>
+    </section>
+    <section class="cd">
+        <p class="cdh">SIBAQ 22 FINALE - 04 DEC
+        </p>
+        <p id="demo"></p>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Dec 1, 2022 06:30:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "  " + hours + "   "
+  + minutes + " " + seconds;
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+<div class="days">
+    <h1 class="d">DAYS</h1>
+    <h1 class="h">HOURS</h1>
+    <h1 class="m">MINUTES</h1>
+    <h1 class="s">SECONDS</h1>
+</div>
+        <div class="count"></div>
+    </section>
+    <section class="footer">
+<div class="qlink">
+    <ul class="linksq">
+        <li class="l"><a href="#"></a></li>
+        <li class="l"><a href="#"></a></li>
+        <li class="l"><a href="#"></a></li>
+        <li class="l"><a href="#"></a></li>
+        <li class="l"><a href="#"></a></li>
+    </ul>
+</div>
+    </section>
+
+
+
+</body>
+</html>

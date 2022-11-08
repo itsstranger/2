@@ -6,6 +6,7 @@
 body{
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
+    overscroll-behavior: none;
   }
 
 body::-webkit-scrollbar {
@@ -88,7 +89,7 @@ display: inline;
     align-items: center;
     position: absolute;
     z-index: 1;
-    top: 92px;
+    top: 75px;
     left: 5%;
 }
 .lgo{
@@ -111,7 +112,7 @@ display: inline;
 .aboutcontent{
     font-family: montserrat;
     position: absolute;
-    top: 85px;
+    top: 75px;
     bottom: 0;
     left: 25%;
     width: 1000px;
@@ -240,6 +241,10 @@ display: inline;
     font-size: 1.5rem;
     transition: all 0.5s;
 }
+/* :hover{
+    color: #ffea00;
+   
+} */
 
 .st{
     position: absolute;
@@ -273,3 +278,8 @@ display: inline;
     font-size: medium;
     font-weight: bold;
 }
+.linksq .ft li a:hover{
+color: #ffea00;
+}
+.linksq .st li a:hover{
+color: #ffea00;
